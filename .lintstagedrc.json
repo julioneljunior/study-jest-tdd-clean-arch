@@ -1,0 +1,6 @@
+{
+  "*.js": [
+    "semistandard --fix",
+    "git add"
+  ]
+}

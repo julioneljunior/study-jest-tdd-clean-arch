@@ -2,6 +2,7 @@
   "hooks": {
     "pre-commit": "lint-staged",
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-    "prepare-commit-msg": "/dev/tty && git cz --hook || true"
+    "prepare-commit-msg": "/dev/tty && git cz --hook || true",
+    "pre-push": "npm run test:ci"
   }
 }

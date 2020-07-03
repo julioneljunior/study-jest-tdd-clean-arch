@@ -5,5 +5,7 @@ module.exports = {
   // define environment
   testEnvironment: 'node',
   // select covarage files to watch
-  collectCoverageFrom: ['**/src/**/*.js']
+  collectCoverageFrom: ['**/src/**/*.js'],
+
+  preset: '@shelf/jest-mongodb'
 };

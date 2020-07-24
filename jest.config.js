@@ -5,7 +5,7 @@ module.exports = {
   // define environment
   testEnvironment: 'node',
   // select coverage files to watch
-  collectCoverageFrom: ['**/src/**/*.js', '!**/src/main/index.js'],
+  collectCoverageFrom: ['**/src/**/*.js', '!**/src/main/**'],
   // define root directory to avoid loop when using --watch flag
   roots: ['src', '__mocks__'],
   preset: '@shelf/jest-mongodb'

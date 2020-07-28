@@ -1,4 +1,10 @@
-# tdd-and-clean-architecture
+# Jest, Test Driven Development and Clean Architecture
+![GitHub package.json version](https://img.shields.io/github/package-json/v/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
+![GitHub](https://img.shields.io/github/license/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
 ## package.json scripts
 ###  npm test
 > Default jest configuration

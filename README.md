@@ -5,6 +5,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/julioneljunior/study-jest-tdd-clean-arch?style=flat-square)
+
+A simple API with one route (POST /login) (maybe more) to study Jest, TDD and Clean Architecture.
+
+Using the free course: API em NodeJS com Clean Architecture e TDD by https://github.com/rmanguinho
 ## package.json scripts
 ###  npm test
 > Default jest configuration

@@ -1,0 +1,11 @@
+FROM node:lts-alpine
+USER root
+WORKDIR '/app'
+
+# Copy files from project folder to container
+COPY package.json .
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "start"]

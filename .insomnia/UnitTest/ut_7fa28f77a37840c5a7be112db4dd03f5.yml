@@ -1,10 +1,12 @@
 _id: ut_7fa28f77a37840c5a7be112db4dd03f5
 type: UnitTest
 parentId: uts_608dd6bfd1e646e997a10415d0f1dd07
-modified: 1604068069734
+modified: 1604085140984
 created: 1603212265403
 requestId: req_78e156fda84a40f2b143565d5e0961c9
 name: Login
 code: |-
-  const response1 = await insomnia.send();
-  expect(response1.status).to.equal(200);
+  const response = await insomnia.send();
+  expect(response.status).to.equal(200);
+  const body = JSON.parse(response.data);
+  expect(body).to.equal("default route");

@@ -49,6 +49,6 @@
     "fast-glob": "^3.2.4",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.9",
-    "validator": "^13.1.1"
+    "validator": "^13.7.0"
   }
 }
